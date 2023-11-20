@@ -18,3 +18,16 @@ for i in range(10): # цикл который сделает то что в нё
 a.sort() # сортировка масссива по возрастанию
 print((a[4] + a[5]) / 2) # вывод медианы массива(нахождение среднего арифметического двух средних чисел медианы массива)
 ```
+                среднее арифметическое и дисперсия
+```python
+numbers = [175, 162, 177, 165, 162, 167]
+average = sum(numbers) / len(numbers)
+print(average)
+a = numbers[0] - average
+b = numbers[1] - average
+c = numbers[2] - average
+d = numbers[3] - average
+e = numbers[4] - average
+f = numbers[5] - average
+print((a ** 2 + b ** 2 + c ** 2 + d ** 2 + e ** 2 + f ** 2) / len(numbers))
+```
