@@ -40,13 +40,15 @@ print(((a ** 2 + b ** 2 + c ** 2 + d ** 2 + e ** 2 + f ** 2) / len(numbers) **0.
 ```python
 import matplotlib
 
+import matplotlib
+
 import matplotlib.pyplot as plt
-x1 = (158, 171, 163, 164, 162, 170, 160, 166, 175, 162, 165, 162, 167)
-y1 = (50, 43, 32, 36, 60, 45, 25, 34, 71, 63, 25, 32, 31)
-plt.scatter(x1, y1)
-x2 = (182, 172, 168, 181, 186, 175, 180, 171, 177, 188)
-y2 = (5, 3, 2, 3, 6, 4, 10, 5, 2, 15)
-plt.scatter(x2, y2)
+x_girls = (158, 171, 163, 164, 162, 170, 160, 166, 175, 162, 165, 162, 167)
+y_girls = (50, 43, 32, 36, 60, 45, 25, 34, 71, 63, 25, 32, 31)
+plt.scatter(x_girls, y_girls)
+x_boys = (182, 172, 168, 181, 186, 175, 180, 171, 177, 188)
+y_boys = (5, 3, 2, 3, 6, 4, 10, 5, 2, 15)
+plt.scatter(x_boys, y_boys)
 plt.show()
 ```
 ![parametrika scatters](https://github.com/zinchenkoooo/neparametrika/assets/143995863/450b48b1-041d-4249-8fa2-77e45a38bec3)
