@@ -76,4 +76,6 @@ y_boys1 = (10, 7, 8)
 plt.scatter(x_boys1, y_boys1)
 plt.show()
 ```
-![photo1705930426](https://github.com/zinchenkoooo/neparametrika/assets/143995863/4355ffa2-4654-4c8f-b9de-ab9db6c4ed59)
+![photo1705959619](https://github.com/zinchenkoooo/neparametrika/assets/143995863/409d012a-f601-4059-b002-9ddfb9616849)
+
+
