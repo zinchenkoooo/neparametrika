@@ -77,5 +77,38 @@ plt.scatter(x_boys1, y_boys1)
 plt.show()
 ```
 ![photo1705959619](https://github.com/zinchenkoooo/neparametrika/assets/143995863/409d012a-f601-4059-b002-9ddfb9616849)
-
+3) Построение модели
+- Создать модель линейной регрессии, где рост, длина волос и пол будут использоваться в качестве независимых переменных (факторов), а классификация (мужчина/женщина) в качестве зависимой переменной.
+- Обучить модель на обучающем наборе данных.
+```python
+import matplotlib
+import matplotlib.pyplot as plt
+x_girls = (158, 171, 163, 164, 162, 170, 160, 166, 175, 162, 165, 162, 167)
+y_girls = (50, 43, 32, 36, 60, 45, 25, 34, 71, 63, 25, 32, 31)
+plt.scatter(x_girls, y_girls)
+x_boys = (182, 172, 168, 181, 186, 175, 180, 171, 177, 188)
+y_boys = (5, 3, 2, 3, 6, 4, 10, 5, 2, 15)
+plt.scatter(x_boys, y_boys)
+x_girls1 = (173, 175)
+y_girls1 = (23,44)
+plt.scatter(x_girls1, y_girls1)
+x_boys1 = (178, 175, 195)
+y_boys1 = (10, 7, 8)
+plt.scatter(x_boys1, y_boys1)
+plt.show()
+import numpy as np
+from sklearn.linear_model import LinearRegression
+#Создание обучающих данных
+x_girls = np.array([[158], [171], [163], [164], [162], [170], [160], [166], [175], [162], [165],[162], [167]])
+y_girls = np.array([50, 43, 32, 36, 60, 45, 25, 34, 71, 63, 25, 32, 31])
+model = LinearRegression()
+model.fit(x_girls, y_girls)
+x_boys = ([[182], [172], [168], [181], [186], [175], [180], [171], [177], [188]])
+y_boys = ([5, 3, 2, 3, 6, 4, 10, 5, 2, 15])
+#Создание и обучение модели линейно регрессии
+model = LinearRegression()
+model.fit(x_boys, y_boys)
+#Получение предсказаний
+predictions = model.predict([[168], [2]])
+```
 
