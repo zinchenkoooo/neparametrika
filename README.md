@@ -40,8 +40,6 @@ print(((a ** 2 + b ** 2 + c ** 2 + d ** 2 + e ** 2 + f ** 2) / len(numbers) **0.
 ```python
 import matplotlib
 
-import matplotlib
-
 import matplotlib.pyplot as plt
 x_girls = (158, 171, 163, 164, 162, 170, 160, 166, 175, 162, 165, 162, 167)
 y_girls = (50, 43, 32, 36, 60, 45, 25, 34, 71, 63, 25, 32, 31)
